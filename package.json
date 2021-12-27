@@ -2,5 +2,8 @@
   "name": "art-rest-service",
   "version": "1.0.0",
   "dependencies": {
+  },
+  "engines": {
+    "node": "14.15.5"
   }
 }
