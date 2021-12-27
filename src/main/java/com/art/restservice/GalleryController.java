@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
 
 
 @RestController
@@ -16,11 +17,15 @@ public class GalleryController {
     @ResponseBody
     @GetMapping( "/random")
     public ArtPiece artPiece() {
-        return Gallery.pieces[(int)Math.random()*13];
+        Random rand = new Random();
+        int upperbound = Gallery.pieces.length;
+        //generate random values from 0-24
+        int int_random = rand.nextInt(upperbound);
+        return Gallery.pieces[int_random];
     }
 
     /**
-     * 
+     *
      * @return all gallery pieces.
      */
     @ResponseBody

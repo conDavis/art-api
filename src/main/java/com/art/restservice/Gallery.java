@@ -46,7 +46,6 @@ public final class Gallery {
     };
 
 
-    public static final int numPieces = pieces.length;
 
 
 
