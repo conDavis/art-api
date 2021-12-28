@@ -1,5 +1,6 @@
 package com.art.restservice;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,7 @@ public class GalleryController {
      *
      * @return random piece out of gallery pieces.
      */
+    @CrossOrigin(origins = "http://localhost:3000")
     @ResponseBody
     @GetMapping( "/random")
     public ArtPiece artPiece() {
@@ -28,6 +30,7 @@ public class GalleryController {
      *
      * @return all gallery pieces.
      */
+    @CrossOrigin(origins = "http://localhost:3000")
     @ResponseBody
     @GetMapping("/all")
     public ArtPiece[] allPieces() {
