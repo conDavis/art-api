@@ -17,7 +17,7 @@ public class GalleryController {
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @ResponseBody
-    @GetMapping( value = "/random", produces = "text/html")
+    @GetMapping( value = "/random", produces = "application/json")
     public ArtPiece artPiece() {
         Random rand = new Random();
         int upperbound = Gallery.pieces.length;
@@ -32,7 +32,7 @@ public class GalleryController {
      */
     @CrossOrigin(origins = "http://localhost:3000")
     @ResponseBody
-    @GetMapping(value = "/all", produces = "text/html")
+    @GetMapping(value = "/all", produces = "application/json")
     public ArtPiece[] allPieces() {
         return Gallery.pieces;
     }
