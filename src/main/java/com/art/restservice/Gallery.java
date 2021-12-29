@@ -46,6 +46,21 @@ public final class Gallery {
     };
 
 
+    /**
+     * Returns the piece with the given name in pieces, or null if it does not exist.
+     * @param name the name of the piece to be returned
+     * @return a piece matching the given name or null
+     */
+    public static ArtPiece getPiece(String name) {
+        for (ArtPiece piece: pieces) {
+            if (piece.getName().equalsIgnoreCase(name)) {
+                return piece;
+            }
+        }
+        return null;
+    }
+
+
 
 
 
