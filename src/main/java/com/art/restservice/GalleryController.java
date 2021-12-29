@@ -31,7 +31,7 @@ public class GalleryController {
     @CrossOrigin(origins = "http://localhost:3000")
     @ResponseBody
     @GetMapping(value = "/piece", produces = "application/json")
-    public ArtPiece piece(@RequestParam("name") String name) {
+    public ArtPiece piece(@RequestParam(value = "name", defaultValue = "self portrait 2020") String name) {
         if (name.contains("\""))
             return Gallery.getPiece(name.substring(1, name.length()-1));
         return Gallery.getPiece(name);
