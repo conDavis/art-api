@@ -1,6 +1,5 @@
 package com.art.restservice;
 
-
 /**
  * Represents a collection of art pieces.
  */
@@ -47,17 +46,18 @@ public final class Gallery {
 
 
     /**
-     * Returns the piece with the given name in pieces, or null if it does not exist.
+     * Returns the piece with the given name in pieces, or throws error if it does not exist.
      * @param name the name of the piece to be returned
-     * @return a piece matching the given name or null
+     * @return a piece matching the given name
+     * @throws Exception if a piece matching the given name is not found.
      */
-    public static ArtPiece getPiece(String name) {
+    public static ArtPiece getPiece(String name) throws Exception {
         for (ArtPiece piece: pieces) {
             if (piece.getName().equalsIgnoreCase(name)) {
                 return piece;
             }
         }
-        return null;
+        throw new Exception("Piece matching given name:" + name + ", not found in gallery.");
     }
 
 
