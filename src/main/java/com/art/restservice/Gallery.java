@@ -16,7 +16,7 @@ public final class Gallery {
      * Represents all pieces in this gallery.
      */
     public static final ArtPiece[] pieces = new ArtPiece[]{
-            new ArtPiece("Woman Troubles",
+            new ArtPiece("Feminine Expectations",
                     "https://drive.google.com/uc?id=1CAfHy1ZfHvRpYNG9O-kXADsPcOhTQUq-", 0),
             new ArtPiece("Womanhood",
                     "https://drive.google.com/uc?id=1xWd2eH0eMGXJOv4jaoGwLgwvls0e9fNd", 1),
@@ -41,7 +41,11 @@ public final class Gallery {
             new ArtPiece("For Rachel",
                     "https://drive.google.com/uc?id=1UXQkDojMwatHs7pYIrSxeAg95w5KBmJd", 11),
             new ArtPiece("All Over Now",
-                    "https://drive.google.com/uc?id=1G9KcpaI4zRBPc7P6nSbFCAN4pfWNd8JH", 12)
+                    "https://drive.google.com/uc?id=1G9KcpaI4zRBPc7P6nSbFCAN4pfWNd8JH", 12),
+            new ArtPiece("My Heart",
+                    "https://drive.google.com/uc?id=1T8appQVsNhS9LSIBB1_MJWQBYafDGP8j", 13),
+            new ArtPiece("Release",
+                    "https://drive.google.com/uc?id=13rP8Xofe1oIlnjfbEDPnNLTQHolBm9tK", 14),
     };
 
 
