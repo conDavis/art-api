@@ -1,4 +1,4 @@
-<h1>API returning art made by me!</h1>
+<h1>API returning art made by me(Con)!</h1>
 
 <h2>Requirements</h2>
 - [git](https://git-scm.com/downloads)
