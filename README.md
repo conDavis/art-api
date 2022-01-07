@@ -11,10 +11,12 @@
 - ./mvnw spring-boot:run </br> 
 
 <h2>Endpoints</h2> 
-/random
-Get info for random art piece including link to image, name, and ID number.
-/all
-Get array containing info for all art pieces. 
-/piece/?{pieceName}
-Get info for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".
+/random<br/>
+Get info for random art piece including link to image, name, and ID number.<br/>
+
+/all<br/>
+Get array containing info for all art pieces.<br/>  
+
+/piece/?{pieceName}<br/>
+Get info for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
 
