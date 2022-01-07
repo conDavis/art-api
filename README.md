@@ -13,6 +13,7 @@
 <h2>Endpoints</h2> 
 /random<br/>
 Get info for random art piece including link to image, name, and ID number.<br/>
+<br/>
 
 /all<br/>
 Get array containing info for all art pieces.<br/>  
