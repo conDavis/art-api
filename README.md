@@ -1,23 +1,27 @@
 <h1>API returning art made by me (Con)!</h1>
 
 <h2>Requirements</h2>
-- [git](https://git-scm.com/downloads)
-- [JDK 1.8](https://www.oracle.com/java/technologies/downloads/) or later
-- [Maven 3.2+](https://maven.apache.org/download.cgi)
+<ul>
+  <li>[git](https://git-scm.com/downloads)</li>
+  <li>[JDK 1.8](https://www.oracle.com/java/technologies/downloads/) or later</li>
+  <li>[Maven 3.2+](https://maven.apache.org/download.cgi)</li>
+</ul>
 
 <h2>Setup</h2> 
-- clone repo </br>
-- cd repo dir </br> 
-- ./mvnw spring-boot:run </br> 
+<ul> 
+  <li> clone repo</li>
+  <li> cd repo dir</li>
+  <li> ./mvnw spring-boot:run</li>
+</ul>
 
 <h2>Endpoints</h2> 
-/random<br/>
+<b>/random<br/></b>
 Get info for random art piece including link to image, name, and ID number.<br/>
 <br/>
 
-/all<br/>
+<b>/all</b><br/>
 Get array containing info for all art pieces.<br/>  
 
-/piece/?{pieceName}<br/>
+<b>/piece/?{pieceName}</b><br/>
 Get info for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
 
