@@ -14,7 +14,7 @@ public class GalleryController {
      *
      * @return random piece out of gallery pieces.
      */
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin
     @ResponseBody
     @GetMapping( value = "/random", produces = "application/json")
     public ArtPiece artPiece() {
@@ -30,7 +30,7 @@ public class GalleryController {
      * @param name the name of the piece to find
      * @return the piece with the given name or null
      */
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin
     @ResponseBody
     @GetMapping(value = "/piece", produces = "application/json")
     public ArtPiece piece(@RequestParam(value = "name", defaultValue = "self portrait 2020") String name) {
@@ -52,7 +52,7 @@ public class GalleryController {
      *
      * @return all gallery pieces.
      */
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin
     @ResponseBody
     @GetMapping(value = "/all", produces = "application/json")
     public ArtPiece[] allPieces() {
