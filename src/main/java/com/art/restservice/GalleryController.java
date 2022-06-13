@@ -37,8 +37,8 @@ public class GalleryController {
         ArtPiece piece;
         try {
             if (name.contains("\""))
-                piece = Gallery.getPiece(name.substring(1, name.length() - 1));
-            piece = Gallery.getPiece(name);
+                piece = Gallery.getPieceByName(name.substring(1, name.length() - 1));
+            piece = Gallery.getPieceByName(name);
             return piece;
         } catch (Exception exc) {
 

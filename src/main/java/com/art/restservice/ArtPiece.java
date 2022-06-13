@@ -7,6 +7,8 @@ public class ArtPiece {
     private final String name;
     private final String url;
     private final long id;
+    private static long nextId = 0;
+
 
     /**
      * Constructs an ArtPiece with the given attributes.
@@ -14,10 +16,12 @@ public class ArtPiece {
      * @param url the url where the content of the piece is hosted
      * @param id the unique id of the piece
      */
-    ArtPiece(String name, String url, long id) {
+    ArtPiece(String name, String url) {
         this.name = name;
         this.url = url;
-        this.id = id;
+        this.id = this.nextId;
+        this.nextId ++;
+
     }
 
     public String getName() {
