@@ -20,8 +20,8 @@ Get info for random art piece including link to image, name, and ID number.<br/>
 <br/>
 
 <b>/all</b><br/>
-Get array containing info for all art pieces.<br/>  
+Get array containing objects representing all art pieces.<br/>  
 
 <b>/piece/?{pieceName}</b><br/>
-Get info for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
+Get attributes for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
 
