@@ -14,7 +14,7 @@ Hosted by Heroku at: https://secret-basin-38348.herokuapp.com/
   <li> ./mvnw spring-boot:run</li>
 </ul>
 <h2> Data Format </h2> 
-Pieces are represented by their name, an id, and a link to an image of the piece, json formatted.
+Pieces are represented by their name, a numeric ID, and a link to an image of the piece, json formatted.
 
 <h2>Endpoints</h2> 
 <b>/random<br/></b>
