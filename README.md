@@ -24,6 +24,10 @@ Get representation for a random art piece including link to image, name, and ID 
 <b>/all</b><br/>
 Get array containing objects representing all art pieces.<br/>  
 
-<b>/piece/?{pieceName}</b><br/>
+<b>/piece/?name={pieceName}</b><br/>
 Get representation for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
 
+<b>/piece/?id={pieceName}</b><br/>
+Get representation for piece with the given id. Default value will return "Self Portrait 2020".  
+
+Note: if ID and name are provided for a /piece query, the id will take precedence over the name given.
