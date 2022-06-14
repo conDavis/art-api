@@ -13,15 +13,17 @@
   <li> cd repo dir</li>
   <li> ./mvnw spring-boot:run</li>
 </ul>
+<h2> Data Format </h2> 
+Pieces are represented by their name, an id, and a link to an image of the piece, json formatted.
 
 <h2>Endpoints</h2> 
 <b>/random<br/></b>
-Get info for random art piece including link to image, name, and ID number.<br/>
+Get representation for a random art piece including link to image, name, and ID number.<br/>
 <br/>
 
 <b>/all</b><br/>
 Get array containing objects representing all art pieces.<br/>  
 
 <b>/piece/?{pieceName}</b><br/>
-Get attributes for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
+Get representation for piece with the given name. Not case sensitive. Default value "Self Portrait 2020".  
 
