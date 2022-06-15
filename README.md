@@ -27,7 +27,7 @@ Get representation for a random art piece.<br/>
 Get array containing objects representing all art pieces.<br/>  
 
 <b>/piece</b><br/>
-Get representation for piece by name or ID, if no name or ID is given this path returns default value "Self Portrait 2020". <br/>
+Get representation for piece by name or ID, if no name or ID is given this path returns a default value "Self Portrait 2020". <br/>
 <img src="https://drive.google.com/uc?id=1L-e28HJnaDveW_i_F3A6ImUPZ_PSadmv" alt="self portrait 2020" width="200"/>
 
 <b>/piece/?name={pieceName}</b><br/>
