@@ -29,6 +29,8 @@ public final class Gallery {
                     "https://drive.google.com/uc?id=1L-e28HJnaDveW_i_F3A6ImUPZ_PSadmv"),
             new ArtPiece("Little Girl",
                     "https://drive.google.com/uc?id=1qfX92Jys9bMrqCQXLNzggVvmlfueAkpQ"),
+            new ArtPiece("Little Girl II",
+                    "https://drive.google.com/file/d/1He8AlTIztNmcccWivBrtw4hcM8lOEK3Q"),
             new ArtPiece("July",
                     "https://drive.google.com/uc?id=1lCGQt1TBrJuGO-zpl09eY7VDZ1Y3qURL"),
             new ArtPiece("Hands",
