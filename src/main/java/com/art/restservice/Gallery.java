@@ -30,7 +30,7 @@ public final class Gallery {
             new ArtPiece("Little Girl",
                     "https://drive.google.com/uc?id=1qfX92Jys9bMrqCQXLNzggVvmlfueAkpQ"),
             new ArtPiece("Little Girl II",
-                    "https://drive.google.com/file/d/1He8AlTIztNmcccWivBrtw4hcM8lOEK3Q"),
+                    "https://drive.google.com/uc?id=1He8AlTIztNmcccWivBrtw4hcM8lOEK3Q"),
             new ArtPiece("July",
                     "https://drive.google.com/uc?id=1lCGQt1TBrJuGO-zpl09eY7VDZ1Y3qURL"),
             new ArtPiece("Hands",
