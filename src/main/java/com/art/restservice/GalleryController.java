@@ -12,7 +12,7 @@ public class GalleryController {
 
     /**
      *
-     * @return random piece out of gallery pieces.
+     * @return random piece from gallery pieces.
      */
     @CrossOrigin
     @ResponseBody
