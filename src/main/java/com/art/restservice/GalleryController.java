@@ -20,7 +20,6 @@ public class GalleryController {
     public ArtPiece artPiece() {
         Random rand = new Random();
         int upperbound = Gallery.pieces.length;
-        //generate random values from 0-24
         int int_random = rand.nextInt(upperbound);
         return Gallery.pieces[int_random];
     }

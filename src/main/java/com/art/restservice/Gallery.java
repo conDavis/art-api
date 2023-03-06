@@ -11,6 +11,8 @@ public final class Gallery {
     public static final ArtPiece[] pieces = new ArtPiece[]{
             new ArtPiece("Where Have You Been?",
                     "https://drive.google.com/uc?id=1fL1ZkiTxEpP6LW-lRkP9D92HqOnhi-tK"),
+            new ArtPiece("Breathe in the Present",
+                    "https://drive.google.com/uc?id=1HrHlhBGF7Y6uzYJwmlLyXhqQQ_kaM0cH"),
             new ArtPiece("Feminine Expectations",
                     "https://drive.google.com/uc?id=1CAfHy1ZfHvRpYNG9O-kXADsPcOhTQUq-"),
             new ArtPiece("Womanhood",
@@ -43,8 +45,6 @@ public final class Gallery {
                     "https://drive.google.com/uc?id=1T8appQVsNhS9LSIBB1_MJWQBYafDGP8j"),
             new ArtPiece("Release",
                     "https://drive.google.com/uc?id=13rP8Xofe1oIlnjfbEDPnNLTQHolBm9tK"),
-            new ArtPiece("Breathe in the Present",
-                    "https://drive.google.com/uc?id=1HrHlhBGF7Y6uzYJwmlLyXhqQQ_kaM0cH"),
     };
 
 
