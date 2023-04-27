@@ -37,8 +37,6 @@ public final class Gallery {
                     "https://drive.google.com/uc?id=1He8AlTIztNmcccWivBrtw4hcM8lOEK3Q"),
             new ArtPiece("July",
                     "https://drive.google.com/uc?id=1lCGQt1TBrJuGO-zpl09eY7VDZ1Y3qURL"),
-            new ArtPiece("Hands",
-                    "https://drive.google.com/uc?id=1AVvrHETi1btq5t_eQYjGiTTDH_F9cPTX"),
             new ArtPiece("For Rachel",
                     "https://drive.google.com/uc?id=1UXQkDojMwatHs7pYIrSxeAg95w5KBmJd"),
             new ArtPiece("All Over Now",
