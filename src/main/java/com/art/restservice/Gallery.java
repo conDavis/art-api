@@ -9,6 +9,8 @@ public final class Gallery {
      * Represents all pieces in this gallery.
      */
     public static final ArtPiece[] pieces = new ArtPiece[]{
+            new ArtPiece("I Can Change",
+                    "https://drive.google.com/uc?id=10mpBkVcWxY_kWoXXK6o8uYjKru2swWy2"),
             new ArtPiece("Where Have You Been?",
                     "https://drive.google.com/uc?id=1fL1ZkiTxEpP6LW-lRkP9D92HqOnhi-tK"),
             new ArtPiece("Breathe in the Present",
